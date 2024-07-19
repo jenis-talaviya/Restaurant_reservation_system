@@ -192,9 +192,9 @@ def generate_otp_for_user(email: str):
 
     logger.info("send otp via email")
     # Send OTP via email
-    sender_email = "jenistalaviya404@gmail.com"
+    sender_email = "youremail@gmail.com"
     receiver_email = email
-    email_password = "zghoimvlnpzerzkv"
+    email_password = "yourpassword"
     success, message = send_otp_via_email(sender_email, receiver_email, email_password, otp_code)
 
     if not success:

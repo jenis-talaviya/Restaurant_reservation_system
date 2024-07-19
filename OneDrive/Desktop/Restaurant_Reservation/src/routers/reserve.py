@@ -148,9 +148,9 @@ def confirm_reservation(reserve_id: str):
     table_number = table.table_number
     
     success, message = send_email(
-        sender_email="jenistalaviya404@gmail.com",
+        sender_email="youremail@gmail.com",
         receiver_email=user_email,
-        password="zghoimvlnpzerzkv",
+        password="your-password",
         subject="Your Reservation Confirmation",
         body=f"Your reservation has been confirmed. Your table ID is {table_id},Your table number is {table_number}"
     )

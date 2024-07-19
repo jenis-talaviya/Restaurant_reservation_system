@@ -84,9 +84,9 @@ def accept_specialrequest(request_id: str,):
 
     logger.info("check email accept and message")
     success, message = send_email(
-        sender_email="jenistalaviya404@gmail.com",
+        sender_email="yourmail@gmail.com",
         receiver_email=user_email,
-        password="zghoimvlnpzerzkv",
+        password="your-password",
         subject=subject,
         body=body
     )
